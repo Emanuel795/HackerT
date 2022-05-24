@@ -1,9 +1,14 @@
 import React, { Fragment } from "react";
 
 function TimeTable() {
-  return (
-    <Fragment>
-      <div className="schedule" aria-labelledby="schedule-heading">
+  return <h1 style={{ color: "white" }}>HORARIOS AQUIA</h1>;
+}
+
+export default TimeTable;
+
+/*
+
+<div className="schedule" aria-labelledby="schedule-heading">
         <span className="track-slot" aria-hidden="true">
           Track 1
         </span>
@@ -138,8 +143,4 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
       </div>
-    </Fragment>
-  );
-}
-
-export default TimeTable;
+*/

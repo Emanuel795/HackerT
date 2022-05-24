@@ -22,9 +22,26 @@ function App() {
             <li>
               <Link to="/singin">Sign IN</Link>
             </li>
+            <li>
+              <Link to="/horarios">horarios</Link>
+            </li>
           </ul>
         </nav>
-        <LoginC/>    
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/singin">
+            <LoginC/> 
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/horarios">
+            
+          </Route>
+        </Switch>
+           
       </div>
     </Router>
   );

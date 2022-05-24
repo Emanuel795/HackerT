@@ -1,10 +1,11 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
+  Link,
+  Routes
 } from "react-router-dom";
+import TimeTable from './Routes/TimeTable/TimeTable'
 import { LoginC } from './components/loginC';
 
 function App() {
@@ -14,33 +15,26 @@ function App() {
       <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
               <Link to="/singin">Sign IN</Link>
             </li>
             <li>
               <Link to="/horarios">horarios</Link>
             </li>
+            <li>
+              <Link to="/">main</Link>
+            </li>
           </ul>
         </nav>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/singin">
-            <LoginC/> 
-          </Route>
+        <Routes>
+          
           <Route path="/">
-            <Home />
+            <Route path="horarios" element={<TimeTable/>}></Route>
+            <Route path="singin" element={<LoginC/>}></Route>
           </Route>
-          <Route path="/horarios">
-            
-          </Route>
-        </Switch>
+          
+          
+          
+        </Routes>
            
       </div>
     </Router>

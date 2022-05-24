@@ -1,48 +1,25 @@
 import React, { Fragment } from "react";
-import "./TimeTable.css";
 
 function TimeTable() {
   return (
     <Fragment>
-      <h2 id="schedule-heading">Conference Schedule</h2>
       <div className="schedule" aria-labelledby="schedule-heading">
-        <span
-          className="track-slot"
-          aria-hidden="true"
-          style="grid-column: track-1; grid-row: tracks;"
-        >
+        <span className="track-slot" aria-hidden="true">
           Track 1
         </span>
-        <span
-          className="track-slot"
-          aria-hidden="true"
-          style="grid-column: track-2; grid-row: tracks;"
-        >
+        <span className="track-slot" aria-hidden="true">
           Track 2
         </span>
-        <span
-          className="track-slot"
-          aria-hidden="true"
-          style="grid-column: track-3; grid-row: tracks;"
-        >
+        <span className="track-slot" aria-hidden="true">
           Track 3
         </span>
-        <span
-          className="track-slot"
-          aria-hidden="true"
-          style="grid-column: track-4; grid-row: tracks;"
-        >
+        <span className="track-slot" aria-hidden="true">
           Track 4
         </span>
 
-        <h2 className="time-slot" style="grid-row: time-0800;">
-          8:00am
-        </h2>
+        <h2 className="time-slot">8:00am</h2>
 
-        <div
-          className="session session-1 track-1"
-          style="grid-column: track-1; grid-row: time-0800 / time-0900;"
-        >
+        <div className="session session-1 track-1">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -51,10 +28,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <div
-          className="session session-2 track-2"
-          style="grid-column: track-2; grid-row: time-0800 / time-0830;"
-        >
+        <div className="session session-2 track-2">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -63,10 +37,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <div
-          className="session session-3 track-3"
-          style="grid-column: track-3; grid-row: time-0800 / time-0830;"
-        >
+        <div className="session session-3 track-3">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -75,10 +46,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <div
-          className="session session-4 track-4"
-          style="grid-column: track-4; grid-row: time-0800 / time-1000;"
-        >
+        <div className="session session-4 track-4">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -87,14 +55,9 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <h2 className="time-slot" style="grid-row: time-0830;">
-          8:30am
-        </h2>
+        <h2 className="time-slot">8:30am</h2>
 
-        <div
-          className="session session-5 track-3"
-          style="grid-column: track-3; grid-row: time-0830 / time-1000;"
-        >
+        <div className="session session-5 track-3">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -103,14 +66,9 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <h2 className="time-slot" style="grid-row: time-0900;">
-          9:00am
-        </h2>
+        <h2 className="time-slot">9:00am</h2>
 
-        <div
-          className="session session-6 track-1"
-          style="grid-column: track-1-start / track-2-end; grid-row: time-0900 / time-1000;"
-        >
+        <div className="session session-6 track-1">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -119,25 +77,15 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <h2 className="time-slot" style="grid-row: time-1000;">
-          10:00am
-        </h2>
+        <h2 className="time-slot">10:00am</h2>
 
-        <div
-          className="session session-7 track-all"
-          style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1030;"
-        >
+        <div className="session session-7 track-all">
           <h3 className="session-title">Take a break!</h3>
         </div>
 
-        <h2 className="time-slot" style="grid-row: time-1030;">
-          10:30am
-        </h2>
+        <h2 className="time-slot">10:30am</h2>
 
-        <div
-          className="session session-8 track-1"
-          style="grid-column: track-1; grid-row: time-1030 / time-1130;"
-        >
+        <div className="session session-8 track-1">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -146,10 +94,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <div
-          className="session session-9 track-2"
-          style="grid-column: track-2-start / track-3-end; grid-row: time-1030 / time-1100;"
-        >
+        <div className="session session-9 track-2">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -158,10 +103,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <div
-          className="session session-10 track-4"
-          style="grid-column: track-4; grid-row: time-1030 / time-1100;"
-        >
+        <div className="session session-10 track-4">
           <h3 className="session-title">
             <a href="#">Talk Title</a>
           </h3>
@@ -170,9 +112,7 @@ function TimeTable() {
           <span className="session-presenter">Presenter</span>
         </div>
 
-        <h2 className="time-slot" style="grid-row: time-1100;">
-          11:00am
-        </h2>
+        <h2 className="time-slot">11:00am</h2>
 
         <div
           className="session session-11 track-2"

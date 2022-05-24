@@ -1,0 +1,58 @@
+.container-main {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: [tracks] auto [time-0800] 1fr [time-0830] 1fr [time-0900] 1fr [time-0930] 1fr [time-1000] 1fr [time-1030] 1fr [time-1100] 1fr [time-1130] 1fr [time-1200] 1fr;
+  grid-template-columns: [times] 4em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end];
+}
+
+.container-day {
+  font-weight: bold;
+  font-size: 0.75em;
+  display: block;
+  padding: 10px 5px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.span1 {
+  grid-column: track-1;
+  grid-row: tracks;
+}
+.span2 {
+  grid-column: track-2;
+  grid-row: tracks;
+}
+.span3 {
+  grid-column: track-3;
+  grid-row: tracks;
+}
+.span4 {
+  grid-column: track-4;
+  grid-row: tracks;
+}
+
+.time-ubic {
+  grid-column: times;
+}
+.time1 {
+  grid-row: time-0800;
+}
+.time2 {
+  grid-row: time-0830;
+}
+.time3 {
+  grid-row: time-0900;
+}
+.time4 {
+  grid-row: time-0930;
+}
+.time5 {
+  grid-row: time-1000;
+}
+.time6 {
+  grid-row: time-1030;
+}
+.time7 {
+  grid-row: time-1100;
+}

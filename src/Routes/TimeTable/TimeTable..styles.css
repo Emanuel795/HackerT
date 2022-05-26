@@ -1,4 +1,8 @@
 .container-main {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(255 255 255 / 50%);
+  border-radius: 10px;
   display: grid;
   grid-gap: 1em;
   grid-template-rows: [tracks] auto [time-0800] 1fr [time-0830] 1fr [time-0900] 1fr [time-0930] 1fr [time-1000] 1fr [time-1030] 1fr [time-1100] 1fr [time-1130] 1fr [time-1200] 1fr;

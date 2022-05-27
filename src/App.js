@@ -5,9 +5,10 @@ import {
   Link,
   Routes
 } from "react-router-dom";
-import TimeTable from './Routes/TimeTable/TimeTable'
+import TimeTable from './Routes/TimeTable/TimeTable';
 import { LoginC } from './components/loginC';
-import { Signup } from './components/signup'
+import { Signup } from './components/signup';
+import { TimeTable1} from './components/timeTable';
 
 function App() {
   return (
@@ -49,10 +50,12 @@ function App() {
             <Route path="horarios" element={<TimeTable/>}></Route>
             <Route path="singin" element={<LoginC/>}></Route>
             <Route path="signup" element={<Signup/>}></Route>
+            <Route path="table" element={<TimeTable1/>}></Route>
+            
             
           </Route>
           
-          
+        
           
         </Routes>
            

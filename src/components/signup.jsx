@@ -1,26 +1,73 @@
-import React from "react";
-import "../styles/signupStyle.css";
+import React, { useState } from "react";
+import "../styles/loginStyle.css";
+
+
 
 export function Signup() {
+
+  const [ formValues, setFormValues]= useState({
+    nombre_usuario: '',
+    nombre:'',
+    primer_apellido:'',
+    segundo_apellido:'',
+    correo:'',
+    fecha_nacimiento:'',
+    pais:'',
+    password:'',
+    confirmpassword:'',
+  })
+
+  const handleChange = (e) => {
+    const {name,value} = e.target
+    console.log(name,value)
+
+    setFormValues({...formValues, [name]:value})
+  }
+
+  const handleSubmit = (e) => { 
+    e.preventDefault()
+    console.log(formValues)
+  }
+
   return (
     <div className="container">
       <div className="frame">
-        <div ng-app ng-init="checked = false">
-          <form className="form-signin" action="" method="post" name="form">
-          <label for="fullname">Full name</label>
-          <input className="form-styling" type="text" name="fullname" placeholder=""/>
-          <label for="email">Email</label>
-          <input className="form-styling" type="text" name="email" placeholder=""/>
-          <label for="password">Password</label>
-          <input className="form-styling" type="text" name="password" placeholder=""/>
-          <label for="confirmpassword">Confirm password</label>
-          <input className="form-styling" type="text" name="confirmpassword" placeholder=""/>
-          <a ng-click="checked = !checked" class="btn-signup">Sign Up</a>
+        <div >
+          <form className="form-signin" onSubmit={ handleSubmit } name="form">
+            <label for="nombre_usuario">Nombre de usuario</label>
+            <input className="form-styling" type="text" name="nombre_usuario" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="nombre">nombre</label>
+            <input className="form-styling" type="text" name="nombre" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="primer_apellido">primer apellido</label>
+            <input className="form-styling" type="text" name="primer_apellido" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="segundo_apellido">segundo apellido </label>
+            <input className="form-styling" type="text" name="segundo_apellido" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="correo">Email</label>
+            <input className="form-styling" type="email" name="correo" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="fecha_nacimiento">fecha de nacimento</label>
+            <input className="form-styling" type="date" name="fecha_nacimiento" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="pais">pais</label>
+            <input className="form-styling" type="text" name="pais" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="password">Password</label>
+            <input className="form-styling" type="password" name="password" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+            <label for="confirmpassword">Confirm password</label>
+            <input className="form-styling" type="password" name="confirmpassword" value={formValues.name} onChange={handleChange} placeholder=""/>
+
+            <div className="btn-animate">
+              <input type="submit" className="btn-signin" value="Sign up" />
+            </div>
+
           </form>
         </div>
       </div>
-
-      <a id="refresh" value="Refresh" onClick="history.go()" />
     </div>
   );
 }

@@ -1,38 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/loginStyle.css";
 
 export function LoginC() {
+
+  const [ formValues, setFormValues]= useState({
+    nombre_usuario: '',
+    password:'',
+  })
+
+  const handleChange = (e) => {
+    const {name,value} = e.target
+    console.log(name,value)
+
+    setFormValues({...formValues, [name]:value})
+  }
+
+  const handleSubmit = (e) => { 
+    e.preventDefault()
+    console.log(formValues)
+  }
+
+ 
+
   return (
-    <div class="container">
-      <div class="frame">
+    <div className="container">
+      <div className="frame">
         <div ng-app ng-init="checked = false">
-          <form class="form-signin" action="" method="post" name="form">
-            <label for="username">Username</label>
-            <input
-              class="form-styling"
-              type="text"
-              name="username"
-              placeholder=""
-            />
+          <form className="form-signin" method="post" name="form">
+            
+            <label for="nombre_usuario">Nombre de usuario</label>
+            <input className="form-styling" type="text" name="nombre_usuario" value={formValues.name} onChange={handleChange} placeholder=""/>
+
             <label for="password">Password</label>
-            <input
-              class="form-styling"
-              type="password"
-              name="password"
-              placeholder=""
-            />
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox">
-              <span class="ui"></span>Keep me signed in
-            </label>
-            <div class="btn-animate">
-              <a class="btn-signin">Sign in</a>
+            <input className="form-styling" type="password" name="password" value={formValues.name} onChange={handleChange} placeholder=""/>
+            
+
+            <div className="btn-animate">
+              <input type="submit" className="btn-signin" value="Sign in" />
             </div>
+
           </form>
         </div>
       </div>
-
-      <a id="refresh" value="Refresh" onClick="history.go()" />
     </div>
   );
 }

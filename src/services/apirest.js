@@ -1,0 +1,1 @@
+export const Apiurl =" dadad.com ";

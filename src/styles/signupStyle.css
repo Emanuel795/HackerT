@@ -170,7 +170,7 @@
   }
   
   .form-signin input, .form-signup input {
-    color: #ffffff;
+    color: #252525;
     font-size: 13px;
   }
   
@@ -344,10 +344,11 @@
     background-color: rgba(255,255,255,1);
   }
   
-  a.btn-signup:hover, a.btn-signin:hover {
+  .btn-signup:hover, .btn-signin:hover {
       cursor: pointer; 
-      background-color: #0F4FE6;
+      background-color: #132f717e;
       transition: background-color .5s; 
+      color: whitesmoke;
   }
   
   .forgot {

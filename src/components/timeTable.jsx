@@ -4,17 +4,17 @@ import '../styles/timeTable.scss'
 export function TimeTable1(){
     return(
         <>
-            <div class="timetable">
-                <div class="week-names">
+            <div className="timetable">
+                <div className="week-names">
                     <div>monday</div>
                     <div>tuesday</div>
                     <div>wednesday</div>
                     <div>thursday</div>
                     <div>friday</div>
-                    <div class="weekend">saturday</div>
-                    <div class="weekend">sunday</div>
+                    <div className="weekend">saturday</div>
+                    <div className="weekend">sunday</div>
                 </div>
-                <div class="time-interval">
+                <div className="time-interval">
                     <div>8:00 - 10:00</div>
                     <div>10:00 - 12:00</div>
                     <div>12:00 - 14:00</div>
@@ -22,61 +22,152 @@ export function TimeTable1(){
                     <div>16:00 - 18:00</div>
                     <div>18:00 - 20:00</div>
                 </div>
-                <div class="content">
+                <div className="content">
+                    {/* 8-10*/}
+                    {/* monday */}
+                    <div className="">
+                        <div className="accent-orange-gradient"></div>
+                    </div>
+                    {/* tuesday */}    
                     <div>
-                    <div class="accent-orange-gradient"></div>
+                        <div className="accent-default-gradient"></div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                        <div>
-                    <div class="accent-green-gradient"></div>
-                    </div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    {/* wednesday */}
                     <div>
-                    <div class="accent-cyan-gradient"></div>
+                        <div className="accent-default-gradient"></div>
                     </div>
-                    <div></div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
+                    {/* thursday */}
                     <div>
-                    <div class="accent-pink-gradient"></div>
+                        <div className="accent-default-gradient"></div>
                     </div>
-                    <div></div>
+                    {/* friday */}
                     <div>
-                    <div class="accent-purple-gradient"></div>
+                        <div className="accent-green-gradient"></div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
+
+                    {/* 10-12*/}
+                    {/* monday */}
                     <div>
-                    <div class="accent-purple-gradient"></div>
+                        <div className="accent-default-gradient"></div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div class="weekend"></div>
-                    <div class="weekend"></div>
+                    {/* tuesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* wednesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* thursday */}
+                    <div>
+                        <div className="accent-cyan-gradient"></div>
+                    </div>
+                    {/* friday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
+                    {/* 12-14*/}
+                    {/* monday */}
+                    <div>
+                        <div className="accent-pink-gradient"></div>
+                    </div>
+                    {/* tuesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* wednesday */}
+                    <div>
+                        <div className="accent-purple-gradient"></div>
+                    </div>
+                    {/* thursday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* friday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
+                    {/* 14-16*/}
+                    {/* monday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* tuesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* wednesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* thursday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>a
+                    </div>
+                    {/* friday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
+                    {/* 16-18*/}
+                    {/* monday */}
+                    <div>
+                        <div className="accent-purple-gradient"></div>
+                    </div>
+                    {/* tuesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* wednesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* thursday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* friday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
+                    {/* 18-20*/}
+                    {/* monday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* tuesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* wednesday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* thursday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* friday */}
+                    <div>
+                        <div className="accent-default-gradient"></div>
+                    </div>
+                    {/* weekend */}
+                    <div className="weekend"></div>
+                    <div className="weekend"></div>
                 </div>
             </div>
         </>

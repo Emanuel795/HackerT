@@ -1,4 +1,5 @@
 $accent-base: #8eeec0 ;
+$accent-default: #bed5f29e;
 $cutty-sark: #546E7A ;
 $porcelain: #ECEFF1 ;
 $accents: (
@@ -8,6 +9,7 @@ $accents: (
   cyan: $accent-base,
   blue: adjust-hue($accent-base, 60%),
   purple: adjust-hue($accent-base, 120%),
+  default: $accent-default,
 );
 
 @function make-gradient($color){

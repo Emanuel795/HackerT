@@ -19,7 +19,6 @@ export function Signup() {
 
   const handleChange = (e) => {
     const {name,value} = e.target
-    console.log(name,value)
 
     setFormValues({...formValues, [name]:value})
   }
@@ -33,7 +32,7 @@ export function Signup() {
     <div className="container">
       <div className="frame">
         <div >
-          <form className="form-signin" onSubmit={ handleSubmit } name="form">
+          <form className="form-signin" onSubmit={ handleSubmit } name="form" method="POST">
             <label for="nombre_usuario">Nombre de usuario</label>
             <input className="form-styling" type="text" name="nombre_usuario" value={formValues.name} onChange={handleChange} placeholder=""/>
             

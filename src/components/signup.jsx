@@ -41,7 +41,7 @@ export function Signup() {
       <div className="frame">
 
         <div >
-          <form className="form-signin" onSubmit={ handleSubmit } name="form" method="POST">
+          <form className="form-signin" onSubmit={ handleSubmit } name="form" method="post">
 
             <label for="nombre_usuario">Nombre de usuario</label>
             <input

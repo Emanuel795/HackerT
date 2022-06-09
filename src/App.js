@@ -5,7 +5,6 @@ import {
   Link,
   Routes
 } from "react-router-dom";
-import TimeTable from './Routes/TimeTable/TimeTable';
 import { LoginC } from './components/loginC';
 import { Signup } from './components/signup';
 import { TimeTable1} from './components/timeTable';
@@ -21,24 +20,16 @@ function App() {
               </div>
             <ul>
               <li>
-                <button className='navButton'>
-                  <Link to="/singin">Sign IN</Link>
-                </button>
+                <Link to="/singin" className='navButton'>Sign IN</Link>
               </li>
               <li>
-                <button className='navButton'>
-                  <Link to="/signup">Sign UP</Link>
-                </button>
+                <Link to="/signup" className='navButton'>Sign UP</Link>
               </li>
               <li>
-                <button className='navButton'>
-                  <Link to="/horarios">horarios</Link>
-                </button>
+                <Link to="/table" className='navButton'>horarios</Link>
               </li>
               <li>
-                <button className='navButton'>
-                  <Link to="/">main</Link>
-                </button>
+                <Link to="/" className='navButton'>main</Link>
               </li>
             </ul>
           </nav>
@@ -47,7 +38,6 @@ function App() {
         <Routes>
           
           <Route path="/">
-            <Route path="horarios" element={<TimeTable/>}></Route>
             <Route path="singin" element={<LoginC/>}></Route>
             <Route path="signup" element={<Signup/>}></Route>
             <Route path="table" element={<TimeTable1/>}></Route>

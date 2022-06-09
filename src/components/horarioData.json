@@ -1,0 +1,406 @@
+[
+    {
+        
+      "materia": "matematica",
+      "hora": "8am-10am",
+      "pendientesN": "3",
+      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+      "color":"green",
+      "size": 140
+    },
+    {
+        
+        "materia": "lenguaje",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"purple",
+        "size": 140
+      },
+      {
+        
+        "materia": "literatura",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"blue",
+        "size": 140
+      },
+      {
+        
+        "materia": "sociales",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"default",
+        "size": 140
+      },
+      {
+        
+        "materia": "teatro",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"cyan",
+        "size": 140
+      },
+      {
+        
+        "materia": "matematica",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"orange",
+        "size": 140
+      },
+
+
+      {
+        
+        "materia": "matematica",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"pink",
+        "size": 140
+      },
+
+      {
+        
+        "materia": "matematica",
+        "hora": "8am-10am",
+        "pendientesN": "3",
+        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+        "color":"green",
+        "size": 140
+      },
+      {
+          
+          "materia": "lenguaje",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"purple",
+          "size": 140
+        },
+        {
+          
+          "materia": "literatura",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"blue",
+          "size": 140
+        },
+        {
+          
+          "materia": "sociales",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"default",
+          "size": 140
+        },
+        {
+          
+          "materia": "teatro",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"cyan",
+          "size": 140
+        },
+        {
+          
+          "materia": "matematica",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"orange",
+          "size": 140
+        },
+  
+  
+        {
+          
+          "materia": "matematica",
+          "hora": "8am-10am",
+          "pendientesN": "3",
+          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+          "color":"pink",
+          "size": 140
+        },
+
+
+
+
+
+        {
+        
+            "materia": "matematica",
+            "hora": "8am-10am",
+            "pendientesN": "3",
+            "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+            "color":"green",
+            "size": 140
+          },
+          {
+              
+              "materia": "lenguaje",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"purple",
+              "size": 140
+            },
+            {
+              
+              "materia": "literatura",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"blue",
+              "size": 140
+            },
+            {
+              
+              "materia": "sociales",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"default",
+              "size": 140
+            },
+            {
+              
+              "materia": "teatro",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"cyan",
+              "size": 140
+            },
+            {
+              
+              "materia": "matematica",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"orange",
+              "size": 140
+            },
+      
+      
+            {
+              
+              "materia": "matematica",
+              "hora": "8am-10am",
+              "pendientesN": "3",
+              "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+              "color":"pink",
+              "size": 140
+            },
+
+            {
+        
+                "materia": "matematica",
+                "hora": "8am-10am",
+                "pendientesN": "3",
+                "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                "color":"green",
+                "size": 140
+              },
+              {
+                  
+                  "materia": "lenguaje",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"purple",
+                  "size": 140
+                },
+                {
+                  
+                  "materia": "literatura",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"blue",
+                  "size": 140
+                },
+                {
+                  
+                  "materia": "sociales",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"default",
+                  "size": 140
+                },
+                {
+                  
+                  "materia": "teatro",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"cyan",
+                  "size": 140
+                },
+                {
+                  
+                  "materia": "matematica",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"orange",
+                  "size": 140
+                },
+          
+          
+                {
+                  
+                  "materia": "matematica",
+                  "hora": "8am-10am",
+                  "pendientesN": "3",
+                  "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                  "color":"pink",
+                  "size": 140
+                },
+
+
+                {
+        
+                    "materia": "matematica",
+                    "hora": "8am-10am",
+                    "pendientesN": "3",
+                    "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                    "color":"green",
+                    "size": 140
+                  },
+                  {
+                      
+                      "materia": "lenguaje",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"purple",
+                      "size": 140
+                    },
+                    {
+                      
+                      "materia": "literatura",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"blue",
+                      "size": 140
+                    },
+                    {
+                      
+                      "materia": "sociales",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"default",
+                      "size": 140
+                    },
+                    {
+                      
+                      "materia": "teatro",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"cyan",
+                      "size": 140
+                    },
+                    {
+                      
+                      "materia": "matematica",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"orange",
+                      "size": 140
+                    },
+              
+              
+                    {
+                      
+                      "materia": "matematica",
+                      "hora": "8am-10am",
+                      "pendientesN": "3",
+                      "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                      "color":"pink",
+                      "size": 140
+                    },
+
+
+                    {
+        
+                        "materia": "matematica",
+                        "hora": "8am-10am",
+                        "pendientesN": "3",
+                        "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                        "color":"green",
+                        "size": 140
+                      },
+                      {
+                          
+                          "materia": "lenguaje",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"purple",
+                          "size": 140
+                        },
+                        {
+                          
+                          "materia": "literatura",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"blue",
+                          "size": 140
+                        },
+                        {
+                          
+                          "materia": "sociales",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"default",
+                          "size": 140
+                        },
+                        {
+                          
+                          "materia": "teatro",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"cyan",
+                          "size": 140
+                        },
+                        {
+                          
+                          "materia": "matematica",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"orange",
+                          "size": 140
+                        },
+                  
+                  
+                        {
+                          
+                          "materia": "matematica",
+                          "hora": "8am-10am",
+                          "pendientesN": "3",
+                          "pendientesD": ["hacer tarea","hacer maqueta","traer regalo"],
+                          "color":"pink",
+                          "size": 140
+                        }
+
+                        
+   
+] 
